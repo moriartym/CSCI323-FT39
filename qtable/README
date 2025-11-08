@@ -1,0 +1,18 @@
+Note :
+aldous Broder Algo is used to create the maze, which guarentee a perfect map
+a random wall destroyer function is created to make the map unperfect
+Perfect map -> there is only 1 path to the goal
+Unperfect map -> there is mutiple path to the goal
+BFS is used to determine the shortest path
+
+Small Map (11 x 11)
+perfect small maze shortest path length : 21
+unperfect small maze shortest path length : 16
+
+Medium Map (21 x 21)
+perfect medium maze shortest path length : 49
+unperfect medium maze shortest path length : 30
+
+Big Map (51 x 51)
+perfect medium maze shortest path length : 150
+unperfect medium maze shortest path length : 184
