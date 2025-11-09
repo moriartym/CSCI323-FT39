@@ -763,7 +763,7 @@ def main():
     print("DQN MAZE SOLVER - WITH VISUALIZATION")
     print("="*80)
     
-    maze, start, goal = load_maze("../maze_map/perfect_small_maze.txt")
+    maze, start, goal = load_maze("maze_map/perfect_small_maze.txt")
     print(f"Maze shape: {maze.shape}")
     print(f"Start: {start}")
     print(f"Goal: {goal}\n")

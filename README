@@ -45,6 +45,7 @@ python3 dqn/dqn.py
 
 - Progress will be printed directly to the terminal.
 - To change the maze, edit line 766 in dqn/dqn.py and update the path.
+    maze, start, goal = load_maze("maze_map/perfect_small_maze.txt")
 - To save the output:
 python3 dqn/dqn.py >> <save_file_name>.txt
 - Press Close on the Pygame maze window to finish training and print results.
