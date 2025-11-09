@@ -3,15 +3,19 @@ import random
 import sys
 import time
 
-epsilon = 0.3
-epsilon_min = 0.01
+epsilon_min = 0.05
+epsilon_decay = 0.995
 alpha = 0.1
 gamma = 0.9
-epsilon_decay_min = 0.9
+
+reward_goal = 100 
+reward_wall = -1
+reward_step = -0.1
+reward_visited = -0.1
 
 def load_maze(file):
     maze = []
-    with open(file, "r") as f:
+    with open(file) as f:
         for line in f:
             maze.append([int(x) for x in line.strip().split()])
     maze = np.array(maze)
@@ -33,19 +37,20 @@ def get_q(state, action):
 def set_q(state, action, value):
     Q[(state, action)] = value
 
-def step_env(maze, state, action, end, goal_reward, step_reward):
+def step_env(maze, state, action, end, visited):
     dx, dy = action_vectors[action]
     x, y = state
     nx, ny = x + dx, y + dy
-    if nx < 0 or ny < 0 or nx >= maze.shape[0] or ny >= maze.shape[1]:
+
+    if nx < 0 or ny < 0 or nx >= maze.shape[0] or ny >= maze.shape[1] or maze[nx, ny] == 1:
         nx, ny = x, y
-    if maze[nx, ny] == 1:
-        nx, ny = x, y
-        reward = -1
+        reward = reward_wall
     elif (nx, ny) == end:
-        reward = goal_reward
+        reward = reward_goal
     else:
-        reward = step_reward
+        reward = reward_step
+        if (nx, ny) in visited:
+            reward += reward_visited
     done = (nx, ny) == end
     return (nx, ny), reward, done
 
@@ -78,10 +83,6 @@ def print_maze(maze, path=[], start=None, end=None):
         lines.append(line)
     return "\n".join(lines) + "\n"
 
-def log(message, file):
-    print(message)
-    file.write(message + "\n")
-
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python qtable.py maze.txt")
@@ -92,82 +93,99 @@ if __name__ == "__main__":
 
     maze_height, maze_width = maze.shape
     total_cells = maze_height * maze_width
-    max_steps = 8 * total_cells
-    goal_reward = 100
-    step_reward = -0.1
+    max_steps = total_cells * 8
 
-    max_epsilon_decay = 1 - (1 - epsilon_min) / total_cells
-    epsilon_decay = max_epsilon_decay
-    delta_decay = max_epsilon_decay / total_cells * 0.1301
+    if maze_height > 20 or maze_width > 20:
+        epsilon_start = 0.5
+    elif maze_height > 14 or maze_width > 14:
+        epsilon_start = 0.3
+    elif maze_height > 10 or maze_width > 10:
+        epsilon_start = 0.2
+    else:
+        epsilon_start = 0.1
 
-    log_file_name = "training_log.txt"
-    with open(log_file_name, "w") as f:
-        log(f"Starting epsilon decay: {epsilon_decay:.6f}", f)
+    epsilon = epsilon_start
+    last_results = []
+    last_rewards = []
+    win_window = 100
+    reward_window = 50
 
-        episode = 0
-        epsilon_history = []
-        best_solution_steps = float('inf')
+    start_training_time = time.time()
+    episode = 0
+    best_reward_overall = -float('inf')
 
-        start_training_time = time.time()
-
-        while True:
-            episode += 1
-            state = start
-            total_reward = 0
-            start_time = time.time()
-
-            for step_num in range(max_steps):
-                action = choose_action(state, epsilon)
-                next_state, reward, done = step_env(maze, state, action, end, goal_reward, step_reward)
-                old_q = get_q(state, action)
-                next_max = max([get_q(next_state, a) for a in ACTIONS])
-                new_q = old_q + alpha * (reward + gamma * next_max - old_q)
-                set_q(state, action, new_q)
-                state = next_state
-                total_reward += reward
-                if done:
-                    break
-
-            steps_this_episode = step_num + 1
-            episode_time = time.time() - start_time
-
-            if state == end and steps_this_episode < best_solution_steps:
-                best_solution_steps = steps_this_episode
-                epsilon_decay = max(epsilon_decay - delta_decay, epsilon_decay_min)
-                log(f"🔥 New best solution! Steps: {best_solution_steps}. Decay decreased to {epsilon_decay:.6f}", f)
-
-            epsilon = max(epsilon * epsilon_decay, epsilon_min)
-            epsilon_history.append(epsilon)
-
-            result = "WIN" if state == end else "LOSE"
-            log(f"Episode {episode} | Reward: {total_reward} | Steps: {steps_this_episode} | "
-                f"Epsilon: {epsilon:.3f} | Result: {result} | Decay: {epsilon_decay:.6f} | Time: {episode_time:.4f}s", f)
-
-            if epsilon <= epsilon_min + 1e-5:
-                log(f"\nTraining stopped after {episode} episodes because epsilon is low ({epsilon:.3f})", f)
-                break
-
-        total_training_time = time.time() - start_training_time
-        log(f"\nTotal training time: {total_training_time:.4f}s", f)
-
+    while True:
+        episode += 1
         state = start
-        epsilon = 0
-        path = [state]
+        total_reward = 0
+        start_time = time.time()
+        visited = set()
+        visited.add(state)
 
-        while state != end:
+        for step_num in range(max_steps):
             action = choose_action(state, epsilon)
-            state, _, done = step_env(maze, state, action, end, goal_reward, step_reward)
-            if state in path:
-                log("⚠️ Loop detected — stopping evaluation...", f)
+            next_state, reward, done = step_env(maze, state, action, end, visited)
+            old_q = get_q(state, action)
+            next_max = max([get_q(next_state, a) for a in ACTIONS])
+            new_q = old_q + alpha * (reward + gamma * next_max - old_q)
+            set_q(state, action, new_q)
+            state = next_state
+            visited.add(state)
+            total_reward += reward
+            if done:
                 break
-            path.append(state)
 
-        path_clean = [(int(x), int(y)) for x, y in path]
-        num_steps = len(path_clean) - 1
+        steps_this_episode = step_num + 1
+        episode_time = time.time() - start_time
+        result = "WIN" if state == end else "LOSE"
 
-        maze_solution = print_maze(maze, path=path_clean, start=start, end=end)
+        print(f"Episode {episode} | Reward: {total_reward:.2f} | Steps: {steps_this_episode} | "
+              f"Epsilon: {epsilon:.2f} | Result: {result} | Time: {episode_time:.5f}s")
 
-        log(f"\nLearned path: {path_clean}", f)
-        log(f"Path length: {num_steps} steps", f)
-        log("Maze solution:", f)
-        log(maze_solution, f)
+        last_results.append(result == "WIN")
+        if len(last_results) > win_window:
+            last_results.pop(0)
+
+        last_rewards.append(total_reward)
+        if len(last_rewards) > reward_window:
+            last_rewards.pop(0)
+
+        max_reward_last_50 = max(last_rewards) if last_rewards else -float('inf')
+        higher_reward_in_last_50 = max_reward_last_50 > best_reward_overall
+        if total_reward > best_reward_overall:
+            best_reward_overall = total_reward
+
+        if (epsilon <= epsilon_min and
+            len(last_results) == win_window and all(last_results) and
+            not higher_reward_in_last_50):
+            print(f"\n✅ Converged at episode {episode} — all stopping conditions met")
+            break
+
+        epsilon = max(epsilon * epsilon_decay, epsilon_min)
+
+    total_training_time = time.time() - start_training_time
+    print(f"\nTotal training time: {total_training_time:.4f}s")
+
+    state = start
+    epsilon = 0
+    path = [state]
+    visited = set()
+    visited.add(state)
+
+    while state != end:
+        action = choose_action(state, epsilon)
+        state, _, done = step_env(maze, state, action, end, visited)
+        if state in visited:
+            print("⚠️ Loop detected — stopping evaluation...")
+            break
+        path.append(state)
+        visited.add(state)
+
+    path_clean = [(int(x), int(y)) for x, y in path]
+    num_steps = len(path_clean) - 1
+    maze_solution = print_maze(maze, path=path_clean, start=start, end=end)
+
+    print(f"\nLearned path: {path_clean}")
+    print(f"Path length: {num_steps} steps")
+    print("Maze solution:")
+    print(maze_solution)
