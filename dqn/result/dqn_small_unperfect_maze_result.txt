@@ -1,0 +1,61 @@
+pygame 2.6.1 (SDL 2.28.4, Python 3.9.6)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+================================================================================
+DQN MAZE SOLVER - FIXED VERSION
+================================================================================
+Maze shape: (11, 11)
+Start: (1, 1)
+Goal: (7, 7)
+
+⚠️  No GPU detected - using CPU
+Using device: cpu
+
+================================================================================
+STARTING DQN TRAINING
+================================================================================
+Max Episodes: 2000
+State size: 8
+Action size: 4
+Max steps per episode: 363
+================================================================================
+
+✗ Ep   25 | Reward: -791.66 | Success:  24.0% | Steps:  336.2 | Length:  24.6 | ε: 0.984 | Time: 4.2s
+✗ Ep   50 | Reward: -778.50 | Success:  20.0% | Steps:  339.2 | Length:  24.5 | ε: 0.968 | Time: 8.4s
+✓ Ep   75 | Reward: -716.89 | Success:  28.0% | Steps:  326.6 | Length:  24.3 | ε: 0.951 | Time: 12.4s
+✓ Ep  100 | Reward: -651.43 | Success:  44.0% | Steps:  311.0 | Length:  24.9 | ε: 0.935 | Time: 16.3s
+✓ Ep  125 | Reward: -561.80 | Success:  56.0% | Steps:  287.2 | Length:  25.7 | ε: 0.918 | Time: 19.6s
+✓ Ep  150 | Reward: -416.90 | Success:  78.0% | Steps:  242.6 | Length:  26.2 | ε: 0.902 | Time: 22.4s
+✓ Ep  175 | Reward: -347.81 | Success:  90.0% | Steps:  224.5 | Length:  26.3 | ε: 0.885 | Time: 26.3s
+✓ Ep  200 | Reward: -307.41 | Success:  90.0% | Steps:  207.4 | Length:  25.8 | ε: 0.869 | Time: 28.6s
+✓ Ep  225 | Reward: -221.34 | Success:  94.0% | Steps:  172.5 | Length:  24.9 | ε: 0.852 | Time: 30.6s
+✓ Ep  250 | Reward: -181.14 | Success:  94.0% | Steps:  159.6 | Length:  24.5 | ε: 0.836 | Time: 32.7s
+✓ Ep  275 | Reward: -188.72 | Success:  94.0% | Steps:  164.3 | Length:  24.5 | ε: 0.819 | Time: 34.8s
+✓ Ep  300 | Reward: -180.62 | Success:  98.0% | Steps:  163.1 | Length:  24.1 | ε: 0.803 | Time: 36.8s
+✓ Ep  325 | Reward: -125.45 | Success: 100.0% | Steps:  138.9 | Length:  23.2 | ε: 0.786 | Time: 38.3s
+✓ Ep  350 | Reward:  -65.57 | Success: 100.0% | Steps:  111.4 | Length:  22.5 | ε: 0.770 | Time: 39.6s
+✓ Ep  375 | Reward:  -46.43 | Success: 100.0% | Steps:  107.5 | Length:  22.4 | ε: 0.753 | Time: 41.0s
+✓ Ep  400 | Reward:  -29.49 | Success: 100.0% | Steps:   99.6 | Length:  22.1 | ε: 0.737 | Time: 42.2s
+✓ Ep  425 | Reward:   -6.73 | Success: 100.0% | Steps:   83.1 | Length:  21.8 | ε: 0.720 | Time: 43.2s
+✓ Ep  450 | Reward:   14.94 | Success: 100.0% | Steps:   71.7 | Length:  21.0 | ε: 0.704 | Time: 44.0s
+✓ Ep  475 | Reward:   34.76 | Success: 100.0% | Steps:   63.6 | Length:  20.6 | ε: 0.687 | Time: 44.8s
+
+================================================================================
+EARLY STOPPING - Converged!
+================================================================================
+
+
+Close Pygame window to continue...
+
+================================================================================
+TRAINING COMPLETE
+================================================================================
+Total Episodes: 500
+Total Time: 65.72s (1.10 min)
+
+Final Success Rate: 100.0%
+Best Path Length: 17
+================================================================================
+
+✓ Results saved to 'training_results.png'
+

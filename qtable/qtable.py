@@ -108,13 +108,13 @@ if __name__ == "__main__":
         epsilon_history = []
         best_solution_steps = float('inf')
 
-        start_training_time = time.time()  # total training start
+        start_training_time = time.time()
 
         while True:
             episode += 1
             state = start
             total_reward = 0
-            start_time = time.time()  # episode start
+            start_time = time.time()
 
             for step_num in range(max_steps):
                 action = choose_action(state, epsilon)

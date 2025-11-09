@@ -1,0 +1,63 @@
+Maze Solvers
+
+All maze maps are located in the `maze_map` directory:
+
+- Perfect Map → Only one path to the goal
+- Unperfect Map → Multiple paths to the goal
+
+Shortest paths are determined using BFS (Breadth-First Search).
+
+Map Sizes & Shortest Paths
+
+Size            | Type      | Shortest Path Length
+----------------| --------- | ------------------
+Small (11x11)   | Perfect   | 21
+Small (11x11)   | Unperfect | 16
+Medium (21x21)  | Perfect   | 49
+Medium (21x21)  | Unperfect | 30
+Big (51x51)     | Perfect   | 150
+Big (51x51)     | Unperfect | 184
+
+Algorithms
+
+All algorithm code is located in their respective directories.
+Results are automatically stored in the same directories with matching names.
+
+Q-Learning (Q-Table)
+
+Implements Q-Learning using a Q-table.
+
+Run:
+python3 qtable/qtable.py <maze_path>
+
+Example:
+python3 qtable/qtable.py maze_map/perfect_small_maze.txt
+
+- A training_log.txt file will be created automatically.
+- Progress will also be printed to the console in real-time.
+
+Deep Q-Network (DQN)
+
+Implements a Deep Q-Network (DQN) for maze solving.
+
+Run:
+python3 dqn/dqn.py
+
+- Progress will be printed directly to the terminal.
+- To change the maze, edit line 400 in dqn/dqn.py and update the path.
+- To save the output:
+python3 dqn/dqn.py >> <save_file_name>.txt
+- Press Close on the Pygame maze window to finish training and print results.
+
+SARSA
+
+Implements SARSA for maze solving.
+
+Run:
+python3 sarsa/sarsa.py <maze_path>
+
+Example:
+python3 sarsa/sarsa.py maze_map/perfect_small_maze.txt
+
+- To save the output:
+python3 sarsa/sarsa.py <maze_path> >> <save_file_name>.txt

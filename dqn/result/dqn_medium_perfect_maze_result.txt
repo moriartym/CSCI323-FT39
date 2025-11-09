@@ -1,0 +1,104 @@
+Medium
+================================================================================
+DQN MAZE SOLVER - FIXED VERSION
+================================================================================
+Maze shape: (21, 21)
+Start: (1, 1)
+Goal: (14, 19)
+
+⚠️  No GPU detected - using CPU
+Using device: cpu
+
+================================================================================
+STARTING DQN TRAINING
+================================================================================
+Max Episodes: 2000
+State size: 8
+Action size: 4
+Max steps per episode: 1323
+================================================================================
+
+✗ Ep   25 | Reward: -3268.72 | Success:   0.0% | Steps: 1323.0 | Length:  54.0 | ε: 0.984 | Time: 83.6s
+✗ Ep   50 | Reward: -3209.73 | Success:   2.0% | Steps: 1316.5 | Length:  56.4 | ε: 0.968 | Time: 167.6s
+✗ Ep   75 | Reward: -3078.02 | Success:   2.0% | Steps: 1316.5 | Length:  66.5 | ε: 0.951 | Time: 255.7s
+✗ Ep  100 | Reward: -2922.39 | Success:   4.0% | Steps: 1307.5 | Length:  71.7 | ε: 0.935 | Time: 344.8s
+✗ Ep  125 | Reward: -2812.88 | Success:   6.0% | Steps: 1298.3 | Length:  70.5 | ε: 0.918 | Time: 441.2s
+✗ Ep  150 | Reward: -2785.66 | Success:   2.0% | Steps: 1313.8 | Length:  74.4 | ε: 0.902 | Time: 528.3s
+✗ Ep  175 | Reward: -2778.60 | Success:   0.0% | Steps: 1323.0 | Length:  75.3 | ε: 0.885 | Time: 625.4s
+✗ Ep  200 | Reward: -2681.96 | Success:   4.0% | Steps: 1308.1 | Length:  74.5 | ε: 0.869 | Time: 717.4s
+✗ Ep  225 | Reward: -2583.22 | Success:   4.0% | Steps: 1308.1 | Length:  72.1 | ε: 0.852 | Time: 805.9s
+✗ Ep  250 | Reward: -2568.91 | Success:   2.0% | Steps: 1319.8 | Length:  69.7 | ε: 0.836 | Time: 893.0s
+✗ Ep  275 | Reward: -2559.56 | Success:   6.0% | Steps: 1318.4 | Length:  69.0 | ε: 0.819 | Time: 986.2s
+✗ Ep  300 | Reward: -2484.23 | Success:   8.0% | Steps: 1311.7 | Length:  66.9 | ε: 0.803 | Time: 1076.0s
+✓ Ep  325 | Reward: -2331.83 | Success:   8.0% | Steps: 1282.7 | Length:  67.1 | ε: 0.786 | Time: 1157.9s
+✗ Ep  350 | Reward: -2267.01 | Success:   8.0% | Steps: 1278.1 | Length:  67.2 | ε: 0.770 | Time: 1247.0s
+✗ Ep  375 | Reward: -2306.43 | Success:   4.0% | Steps: 1308.5 | Length:  66.5 | ε: 0.753 | Time: 1338.8s
+✗ Ep  400 | Reward: -2295.94 | Success:   0.0% | Steps: 1323.0 | Length:  66.5 | ε: 0.737 | Time: 1434.3s
+✗ Ep  425 | Reward: -2267.66 | Success:   0.0% | Steps: 1323.0 | Length:  64.7 | ε: 0.720 | Time: 1524.7s
+✗ Ep  450 | Reward: -2222.73 | Success:   0.0% | Steps: 1323.0 | Length:  63.2 | ε: 0.704 | Time: 1612.3s
+✗ Ep  475 | Reward: -2136.81 | Success:   0.0% | Steps: 1323.0 | Length:  63.0 | ε: 0.687 | Time: 1701.9s
+✗ Ep  500 | Reward: -1937.06 | Success:  14.0% | Steps: 1218.0 | Length:  64.2 | ε: 0.671 | Time: 1778.1s
+✗ Ep  525 | Reward: -1982.72 | Success:  14.0% | Steps: 1218.0 | Length:  64.6 | ε: 0.654 | Time: 1870.0s
+✗ Ep  550 | Reward: -2005.83 | Success:   4.0% | Steps: 1295.0 | Length:  64.4 | ε: 0.638 | Time: 1960.4s
+✗ Ep  575 | Reward: -1881.26 | Success:   6.0% | Steps: 1285.6 | Length:  63.9 | ε: 0.621 | Time: 2048.5s
+✗ Ep  600 | Reward: -1943.56 | Success:   2.0% | Steps: 1313.7 | Length:  59.4 | ε: 0.605 | Time: 2138.4s
+✗ Ep  625 | Reward: -1835.22 | Success:   2.0% | Steps: 1322.3 | Length:  59.0 | ε: 0.588 | Time: 2228.1s
+✗ Ep  650 | Reward: -1721.79 | Success:   2.0% | Steps: 1322.3 | Length:  60.5 | ε: 0.572 | Time: 2317.0s
+✗ Ep  675 | Reward: -1728.03 | Success:   0.0% | Steps: 1323.0 | Length:  57.0 | ε: 0.555 | Time: 2409.1s
+✓ Ep  700 | Reward: -1604.54 | Success:  10.0% | Steps: 1280.8 | Length:  58.8 | ε: 0.539 | Time: 2487.6s
+✗ Ep  725 | Reward: -1415.46 | Success:  26.0% | Steps: 1187.1 | Length:  61.5 | ε: 0.522 | Time: 2563.7s
+✗ Ep  750 | Reward: -1347.60 | Success:  38.0% | Steps: 1103.3 | Length:  59.6 | ε: 0.506 | Time: 2637.0s
+✓ Ep  775 | Reward: -1218.16 | Success:  40.0% | Steps: 1031.8 | Length:  59.0 | ε: 0.489 | Time: 2703.7s
+✗ Ep  800 | Reward: -1068.50 | Success:  48.0% | Steps:  979.2 | Length:  60.0 | ε: 0.473 | Time: 2771.5s
+✓ Ep  825 | Reward: -611.32 | Success:  78.0% | Steps:  658.7 | Length:  59.7 | ε: 0.456 | Time: 2797.6s
+✓ Ep  850 | Reward: -121.94 | Success:  98.0% | Steps:  293.2 | Length:  58.8 | ε: 0.440 | Time: 2815.4s
+✓ Ep  875 | Reward:  -48.00 | Success:  98.0% | Steps:  218.8 | Length:  56.9 | ε: 0.423 | Time: 2828.8s
+✓ Ep  900 | Reward:   24.42 | Success:  98.0% | Steps:  159.2 | Length:  54.7 | ε: 0.407 | Time: 2836.4s
+✓ Ep  925 | Reward:   34.39 | Success: 98.0% | Steps:  148.3 | Length:  54.4 | ε: 0.390 | Time: 2843.8s
+✓ Ep  950 | Reward:  -24.03 | Success:  98.0% | Steps:  144.6 | Length:  54.2 | ε: 0.374 | Time: 2858.2s
+✓ Ep  975 | Reward: 78.59 | Success:  100.0% | Steps:  113.5 | Length:  54.0 | ε: 0.357 | Time: 2874.1s
+
+================================================================================
+EARLY STOPPING - Converged!
+================================================================================
+
+
+================================================================================
+TRAINING COMPLETE
+================================================================================
+Total Episodes: 1000
+Total Time: 2885.91s (48.10 min)
+
+Final Success Rate: 98.0%
+Best Path Length: 50
+================================================================================
+
+✓ Results saved to 'training_results.png'
+
+
+
+====================================================================================================
+DQN TRAINING - BATCH ANALYSIS (10% INTERVALS) - MEDIUM MAZE
+====================================================================================================
+Batch        Episodes     Count    Avg Reward      Avg Success     Avg Steps    Avg Length   Avg ε     
+----------------------------------------------------------------------------------------------------
+0-10%        1-100        4             -3119.72           2.00%     1315.88       62.15     0.960
+10-20%       101-200      4             -2764.78           3.00%     1310.80       73.67     0.893
+20-30%       201-300      4             -2548.98           5.00%     1314.50       69.42     0.828
+30-40%       301-400      4             -2300.30           5.00%     1298.08       66.83     0.762
+40-50%       401-500      4             -2141.07           3.50%     1296.75       63.78     0.696
+50-60%       501-600      4             -1953.34           6.50%     1278.08       63.08     0.629
+60-70%       601-700      4             -1722.39           3.50%     1312.10       58.83     0.564
+70-80%       701-800      4             -1262.43          38.00%     1075.35       60.02     0.497
+80-90%       801-900      4              -189.21          93.00%      332.48       57.52     0.431
+90-100%      901-1000     3               -19.55          98.00%      154.10       54.43     0.374
+====================================================================================================
+
+Total episodes analyzed: 39
+Episode range: 25 to 975
+
+Overall improvement:
+  First batch (0-10%):  Reward=-3119.72, Success=2.00%
+  Last batch (91-100%): Reward=-19.55, Success=98.00%
+  Improvement: Reward +3100.16, Success +96.00%
+====================================================================================================

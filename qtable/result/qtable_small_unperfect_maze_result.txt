@@ -1,0 +1,193 @@
+Starting epsilon decay: 0.991818
+🔥 New best solution! Steps: 156. Decay decreased to 0.990752
+Episode 1 | Reward: 30.499999999999957 | Steps: 156 | Epsilon: 0.297 | Result: WIN | Decay: 0.990752 | Time: 0.0004s
+Episode 2 | Reward: -100.89999999999768 | Steps: 732 | Epsilon: 0.294 | Result: WIN | Decay: 0.990752 | Time: 0.0019s
+Episode 3 | Reward: 18.900000000000205 | Steps: 308 | Epsilon: 0.292 | Result: WIN | Decay: 0.990752 | Time: 0.0008s
+Episode 4 | Reward: 17.900000000000134 | Steps: 372 | Epsilon: 0.289 | Result: WIN | Decay: 0.990752 | Time: 0.0010s
+Episode 5 | Reward: 48.29999999999977 | Steps: 257 | Epsilon: 0.286 | Result: WIN | Decay: 0.990752 | Time: 0.0006s
+🔥 New best solution! Steps: 137. Decay decreased to 0.989685
+Episode 6 | Reward: 67.49999999999994 | Steps: 137 | Epsilon: 0.283 | Result: WIN | Decay: 0.989685 | Time: 0.0004s
+Episode 7 | Reward: 59.4999999999999 | Steps: 181 | Epsilon: 0.281 | Result: WIN | Decay: 0.989685 | Time: 0.0005s
+Episode 8 | Reward: 56.8999999999999 | Steps: 171 | Epsilon: 0.278 | Result: WIN | Decay: 0.989685 | Time: 0.0004s
+🔥 New best solution! Steps: 127. Decay decreased to 0.988619
+Episode 9 | Reward: 68.49999999999991 | Steps: 127 | Epsilon: 0.274 | Result: WIN | Decay: 0.988619 | Time: 0.0004s
+Episode 10 | Reward: 70.49999999999994 | Steps: 134 | Epsilon: 0.271 | Result: WIN | Decay: 0.988619 | Time: 0.0003s
+🔥 New best solution! Steps: 102. Decay decreased to 0.987553
+Episode 11 | Reward: 75.49999999999997 | Steps: 102 | Epsilon: 0.268 | Result: WIN | Decay: 0.987553 | Time: 0.0005s
+Episode 12 | Reward: 69.49999999999993 | Steps: 144 | Epsilon: 0.265 | Result: WIN | Decay: 0.987553 | Time: 0.0004s
+🔥 New best solution! Steps: 86. Decay decreased to 0.986486
+Episode 13 | Reward: 84.30000000000003 | Steps: 86 | Epsilon: 0.261 | Result: WIN | Decay: 0.986486 | Time: 0.0002s
+Episode 14 | Reward: 61.09999999999989 | Steps: 174 | Epsilon: 0.258 | Result: WIN | Decay: 0.986486 | Time: 0.0004s
+🔥 New best solution! Steps: 64. Decay decreased to 0.985420
+Episode 15 | Reward: 88.30000000000001 | Steps: 64 | Epsilon: 0.254 | Result: WIN | Decay: 0.985420 | Time: 0.0002s
+🔥 New best solution! Steps: 38. Decay decreased to 0.984353
+Episode 16 | Reward: 90.9 | Steps: 38 | Epsilon: 0.250 | Result: WIN | Decay: 0.984353 | Time: 0.0001s
+Episode 17 | Reward: 83.90000000000003 | Steps: 126 | Epsilon: 0.246 | Result: WIN | Decay: 0.984353 | Time: 0.0003s
+Episode 18 | Reward: 82.9 | Steps: 64 | Epsilon: 0.242 | Result: WIN | Decay: 0.984353 | Time: 0.0001s
+Episode 19 | Reward: 92.30000000000001 | Steps: 42 | Epsilon: 0.238 | Result: WIN | Decay: 0.984353 | Time: 0.0001s
+Episode 20 | Reward: 90.30000000000001 | Steps: 44 | Epsilon: 0.235 | Result: WIN | Decay: 0.984353 | Time: 0.0001s
+Episode 21 | Reward: 68.6999999999999 | Steps: 143 | Epsilon: 0.231 | Result: WIN | Decay: 0.984353 | Time: 0.0005s
+🔥 New best solution! Steps: 36. Decay decreased to 0.983287
+Episode 22 | Reward: 92.9 | Steps: 36 | Epsilon: 0.227 | Result: WIN | Decay: 0.983287 | Time: 0.0001s
+🔥 New best solution! Steps: 33. Decay decreased to 0.982220
+Episode 23 | Reward: 95.9 | Steps: 33 | Epsilon: 0.223 | Result: WIN | Decay: 0.982220 | Time: 0.0001s
+Episode 24 | Reward: 92.3 | Steps: 42 | Epsilon: 0.219 | Result: WIN | Decay: 0.982220 | Time: 0.0001s
+Episode 25 | Reward: 91.9 | Steps: 46 | Epsilon: 0.215 | Result: WIN | Decay: 0.982220 | Time: 0.0001s
+Episode 26 | Reward: 91.30000000000001 | Steps: 43 | Epsilon: 0.211 | Result: WIN | Decay: 0.982220 | Time: 0.0001s
+🔥 New best solution! Steps: 30. Decay decreased to 0.981154
+Episode 27 | Reward: 95.3 | Steps: 30 | Epsilon: 0.207 | Result: WIN | Decay: 0.981154 | Time: 0.0001s
+Episode 28 | Reward: 95.3 | Steps: 30 | Epsilon: 0.203 | Result: WIN | Decay: 0.981154 | Time: 0.0001s
+Episode 29 | Reward: 90.10000000000001 | Steps: 37 | Epsilon: 0.200 | Result: WIN | Decay: 0.981154 | Time: 0.0001s
+🔥 New best solution! Steps: 26. Decay decreased to 0.980088
+Episode 30 | Reward: 93.9 | Steps: 26 | Epsilon: 0.196 | Result: WIN | Decay: 0.980088 | Time: 0.0001s
+Episode 31 | Reward: 89.5 | Steps: 43 | Epsilon: 0.192 | Result: WIN | Decay: 0.980088 | Time: 0.0001s
+🔥 New best solution! Steps: 23. Decay decreased to 0.979021
+Episode 32 | Reward: 95.10000000000001 | Steps: 23 | Epsilon: 0.188 | Result: WIN | Decay: 0.979021 | Time: 0.0001s
+🔥 New best solution! Steps: 17. Decay decreased to 0.977955
+Episode 33 | Reward: 97.5 | Steps: 17 | Epsilon: 0.184 | Result: WIN | Decay: 0.977955 | Time: 0.0001s
+Episode 34 | Reward: 95.3 | Steps: 30 | Epsilon: 0.179 | Result: WIN | Decay: 0.977955 | Time: 0.0001s
+Episode 35 | Reward: 90.9 | Steps: 47 | Epsilon: 0.176 | Result: WIN | Decay: 0.977955 | Time: 0.0001s
+Episode 36 | Reward: 96.9 | Steps: 23 | Epsilon: 0.172 | Result: WIN | Decay: 0.977955 | Time: 0.0001s
+Episode 37 | Reward: 92.9 | Steps: 27 | Epsilon: 0.168 | Result: WIN | Decay: 0.977955 | Time: 0.0001s
+Episode 38 | Reward: 97.7 | Steps: 24 | Epsilon: 0.164 | Result: WIN | Decay: 0.977955 | Time: 0.0001s
+Episode 39 | Reward: 97.3 | Steps: 19 | Epsilon: 0.161 | Result: WIN | Decay: 0.977955 | Time: 0.0000s
+Episode 40 | Reward: 98.1 | Steps: 20 | Epsilon: 0.157 | Result: WIN | Decay: 0.977955 | Time: 0.0000s
+🔥 New best solution! Steps: 16. Decay decreased to 0.976888
+Episode 41 | Reward: 98.5 | Steps: 16 | Epsilon: 0.153 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 42 | Reward: 96.1 | Steps: 22 | Epsilon: 0.150 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 43 | Reward: 96.3 | Steps: 29 | Epsilon: 0.146 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 44 | Reward: 97.1 | Steps: 21 | Epsilon: 0.143 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 45 | Reward: 98.5 | Steps: 16 | Epsilon: 0.140 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 46 | Reward: 98.5 | Steps: 16 | Epsilon: 0.136 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 47 | Reward: 94.9 | Steps: 25 | Epsilon: 0.133 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 48 | Reward: 97.5 | Steps: 17 | Epsilon: 0.130 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 49 | Reward: 97.5 | Steps: 17 | Epsilon: 0.127 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 50 | Reward: 97.1 | Steps: 21 | Epsilon: 0.124 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 51 | Reward: 97.5 | Steps: 17 | Epsilon: 0.121 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 52 | Reward: 97.5 | Steps: 17 | Epsilon: 0.119 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 53 | Reward: 94.3 | Steps: 22 | Epsilon: 0.116 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 54 | Reward: 98.5 | Steps: 16 | Epsilon: 0.113 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 55 | Reward: 97.3 | Steps: 19 | Epsilon: 0.111 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 56 | Reward: 98.3 | Steps: 18 | Epsilon: 0.108 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 57 | Reward: 96.3 | Steps: 20 | Epsilon: 0.106 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 58 | Reward: 91.7 | Steps: 57 | Epsilon: 0.103 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 59 | Reward: 97.5 | Steps: 17 | Epsilon: 0.101 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 60 | Reward: 98.1 | Steps: 20 | Epsilon: 0.098 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 61 | Reward: 97.1 | Steps: 21 | Epsilon: 0.096 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 62 | Reward: 98.5 | Steps: 16 | Epsilon: 0.094 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 63 | Reward: 97.5 | Steps: 17 | Epsilon: 0.092 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 64 | Reward: 98.5 | Steps: 16 | Epsilon: 0.090 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 65 | Reward: 98.5 | Steps: 16 | Epsilon: 0.088 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 66 | Reward: 98.5 | Steps: 16 | Epsilon: 0.085 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 67 | Reward: 98.5 | Steps: 16 | Epsilon: 0.084 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 68 | Reward: 97.3 | Steps: 19 | Epsilon: 0.082 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 69 | Reward: 98.5 | Steps: 16 | Epsilon: 0.080 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 70 | Reward: 97.5 | Steps: 17 | Epsilon: 0.078 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 71 | Reward: 96.9 | Steps: 23 | Epsilon: 0.076 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 72 | Reward: 96.3 | Steps: 20 | Epsilon: 0.074 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 73 | Reward: 97.3 | Steps: 19 | Epsilon: 0.073 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 74 | Reward: 97.5 | Steps: 17 | Epsilon: 0.071 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 75 | Reward: 98.5 | Steps: 16 | Epsilon: 0.069 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 76 | Reward: 98.5 | Steps: 16 | Epsilon: 0.068 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 77 | Reward: 98.5 | Steps: 16 | Epsilon: 0.066 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 78 | Reward: 97.5 | Steps: 17 | Epsilon: 0.065 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 79 | Reward: 97.5 | Steps: 17 | Epsilon: 0.063 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 80 | Reward: 96.3 | Steps: 20 | Epsilon: 0.062 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 81 | Reward: 98.5 | Steps: 16 | Epsilon: 0.060 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 82 | Reward: 98.5 | Steps: 16 | Epsilon: 0.059 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 83 | Reward: 98.5 | Steps: 16 | Epsilon: 0.057 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 84 | Reward: 98.5 | Steps: 16 | Epsilon: 0.056 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 85 | Reward: 98.5 | Steps: 16 | Epsilon: 0.055 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 86 | Reward: 98.5 | Steps: 16 | Epsilon: 0.054 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 87 | Reward: 98.5 | Steps: 16 | Epsilon: 0.052 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 88 | Reward: 98.5 | Steps: 16 | Epsilon: 0.051 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 89 | Reward: 98.5 | Steps: 16 | Epsilon: 0.050 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 90 | Reward: 97.5 | Steps: 17 | Epsilon: 0.049 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 91 | Reward: 98.5 | Steps: 16 | Epsilon: 0.048 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 92 | Reward: 98.5 | Steps: 16 | Epsilon: 0.047 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 93 | Reward: 98.5 | Steps: 16 | Epsilon: 0.045 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 94 | Reward: 98.5 | Steps: 16 | Epsilon: 0.044 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 95 | Reward: 98.5 | Steps: 16 | Epsilon: 0.043 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 96 | Reward: 98.5 | Steps: 16 | Epsilon: 0.042 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 97 | Reward: 98.5 | Steps: 16 | Epsilon: 0.041 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 98 | Reward: 98.1 | Steps: 20 | Epsilon: 0.040 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 99 | Reward: 98.5 | Steps: 16 | Epsilon: 0.040 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 100 | Reward: 98.5 | Steps: 16 | Epsilon: 0.039 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 101 | Reward: 98.5 | Steps: 16 | Epsilon: 0.038 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 102 | Reward: 98.5 | Steps: 16 | Epsilon: 0.037 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 103 | Reward: 98.5 | Steps: 16 | Epsilon: 0.036 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 104 | Reward: 98.5 | Steps: 16 | Epsilon: 0.035 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 105 | Reward: 98.5 | Steps: 16 | Epsilon: 0.034 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 106 | Reward: 98.3 | Steps: 18 | Epsilon: 0.034 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 107 | Reward: 98.5 | Steps: 16 | Epsilon: 0.033 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 108 | Reward: 98.5 | Steps: 16 | Epsilon: 0.032 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 109 | Reward: 98.3 | Steps: 18 | Epsilon: 0.031 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 110 | Reward: 97.5 | Steps: 17 | Epsilon: 0.031 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 111 | Reward: 98.5 | Steps: 16 | Epsilon: 0.030 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 112 | Reward: 97.5 | Steps: 17 | Epsilon: 0.029 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 113 | Reward: 98.5 | Steps: 16 | Epsilon: 0.028 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 114 | Reward: 98.3 | Steps: 18 | Epsilon: 0.028 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 115 | Reward: 98.1 | Steps: 20 | Epsilon: 0.027 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 116 | Reward: 98.5 | Steps: 16 | Epsilon: 0.027 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 117 | Reward: 97.3 | Steps: 19 | Epsilon: 0.026 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 118 | Reward: 98.5 | Steps: 16 | Epsilon: 0.025 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 119 | Reward: 98.5 | Steps: 16 | Epsilon: 0.025 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 120 | Reward: 98.5 | Steps: 16 | Epsilon: 0.024 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 121 | Reward: 98.5 | Steps: 16 | Epsilon: 0.024 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 122 | Reward: 97.5 | Steps: 17 | Epsilon: 0.023 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 123 | Reward: 98.5 | Steps: 16 | Epsilon: 0.023 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 124 | Reward: 98.5 | Steps: 16 | Epsilon: 0.022 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 125 | Reward: 98.5 | Steps: 16 | Epsilon: 0.022 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 126 | Reward: 98.5 | Steps: 16 | Epsilon: 0.021 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 127 | Reward: 98.3 | Steps: 18 | Epsilon: 0.021 | Result: WIN | Decay: 0.976888 | Time: 0.0001s
+Episode 128 | Reward: 98.5 | Steps: 16 | Epsilon: 0.020 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 129 | Reward: 98.3 | Steps: 18 | Epsilon: 0.020 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 130 | Reward: 98.5 | Steps: 16 | Epsilon: 0.019 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 131 | Reward: 97.5 | Steps: 17 | Epsilon: 0.019 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 132 | Reward: 97.5 | Steps: 17 | Epsilon: 0.018 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 133 | Reward: 96.5 | Steps: 18 | Epsilon: 0.018 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 134 | Reward: 98.5 | Steps: 16 | Epsilon: 0.017 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 135 | Reward: 98.5 | Steps: 16 | Epsilon: 0.017 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 136 | Reward: 98.5 | Steps: 16 | Epsilon: 0.017 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 137 | Reward: 97.5 | Steps: 17 | Epsilon: 0.016 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 138 | Reward: 98.5 | Steps: 16 | Epsilon: 0.016 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 139 | Reward: 98.5 | Steps: 16 | Epsilon: 0.016 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 140 | Reward: 97.3 | Steps: 19 | Epsilon: 0.015 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 141 | Reward: 98.5 | Steps: 16 | Epsilon: 0.015 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 142 | Reward: 98.5 | Steps: 16 | Epsilon: 0.014 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 143 | Reward: 98.5 | Steps: 16 | Epsilon: 0.014 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 144 | Reward: 98.5 | Steps: 16 | Epsilon: 0.014 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 145 | Reward: 98.5 | Steps: 16 | Epsilon: 0.013 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 146 | Reward: 98.5 | Steps: 16 | Epsilon: 0.013 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 147 | Reward: 98.5 | Steps: 16 | Epsilon: 0.013 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 148 | Reward: 98.5 | Steps: 16 | Epsilon: 0.013 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 149 | Reward: 98.5 | Steps: 16 | Epsilon: 0.012 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 150 | Reward: 98.5 | Steps: 16 | Epsilon: 0.012 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 151 | Reward: 98.5 | Steps: 16 | Epsilon: 0.012 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 152 | Reward: 98.3 | Steps: 18 | Epsilon: 0.011 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 153 | Reward: 98.5 | Steps: 16 | Epsilon: 0.011 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 154 | Reward: 98.5 | Steps: 16 | Epsilon: 0.011 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 155 | Reward: 98.5 | Steps: 16 | Epsilon: 0.011 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 156 | Reward: 97.5 | Steps: 17 | Epsilon: 0.010 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 157 | Reward: 98.5 | Steps: 16 | Epsilon: 0.010 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+Episode 158 | Reward: 98.5 | Steps: 16 | Epsilon: 0.010 | Result: WIN | Decay: 0.976888 | Time: 0.0000s
+
+Training stopped after 158 episodes because epsilon is low (0.010)
+
+Total training time: 0.0178s
+
+Learned path: [(1, 1), (2, 1), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (4, 5), (5, 5), (6, 5), (7, 5), (8, 5), (9, 5), (9, 6), (9, 7), (8, 7), (7, 7)]
+Path length: 16 steps
+Maze solution:
+# # # # # # # # # # # 
+# S # . . . . . . . # 
+# [91m*[0m # # # # # # # . # 
+# [91m*[0m [91m*[0m [91m*[0m [91m*[0m [91m*[0m . . . . # 
+# . # # # [91m*[0m # # # . # 
+# . # . # [91m*[0m . . # . # 
+# # # . # [91m*[0m # # # # # 
+# . . . . [91m*[0m # E . . # 
+# . # # # [91m*[0m # [91m*[0m # . # 
+# . # . . [91m*[0m [91m*[0m [91m*[0m . . # 
+# # # # # # # # # # # 
+
