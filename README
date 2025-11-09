@@ -11,12 +11,12 @@ Map Sizes & Shortest Paths
 
 Size            | Type      | Shortest Path Length
 ----------------| --------- | ------------------
-Small (11x11)   | Perfect   | 21
-Small (11x11)   | Unperfect | 16
-Medium (21x21)  | Perfect   | 49
-Medium (21x21)  | Unperfect | 30
-Big (51x51)     | Perfect   | 150
-Big (51x51)     | Unperfect | 184
+Small (5x5)     | Perfect   | 5
+Small (5x5)     | Unperfect | 3
+Medium (11x11)  | Perfect   | 23
+Medium (11x11)  | Unperfect | 9
+Big (15x15)     | Perfect   | 20
+Big (15x15)     | Unperfect | 16
 
 Algorithms
 
@@ -44,7 +44,7 @@ Run:
 python3 dqn/dqn.py
 
 - Progress will be printed directly to the terminal.
-- To change the maze, edit line 400 in dqn/dqn.py and update the path.
+- To change the maze, edit line 766 in dqn/dqn.py and update the path.
 - To save the output:
 python3 dqn/dqn.py >> <save_file_name>.txt
 - Press Close on the Pygame maze window to finish training and print results.

@@ -158,7 +158,7 @@ if __name__ == "__main__":
         if (epsilon <= epsilon_min and
             len(last_results) == win_window and all(last_results) and
             not higher_reward_in_last_50):
-            print(f"\n✅ Converged at episode {episode} — all stopping conditions met")
+            print(f"\nConverged at episode {episode} — all stopping conditions met")
             break
 
         epsilon = max(epsilon * epsilon_decay, epsilon_min)
@@ -176,7 +176,7 @@ if __name__ == "__main__":
         action = choose_action(state, epsilon)
         state, _, done = step_env(maze, state, action, end, visited)
         if state in visited:
-            print("⚠️ Loop detected — stopping evaluation...")
+            print("Loop detected — stopping evaluation...")
             break
         path.append(state)
         visited.add(state)

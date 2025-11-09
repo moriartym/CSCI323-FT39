@@ -170,6 +170,7 @@ if __name__=="__main__":
     if len(sys.argv)<2:
         print("Usage: python3 sarsa.py <maze_filename.txt>")
         sys.exit(1)
+
     MAZE_TXT = sys.argv[1]
     arr_int, start, goal = load_txt_intgrid(MAZE_TXT)
     grid = arr_int
@@ -182,8 +183,6 @@ if __name__=="__main__":
         epsilon_start = 0.3
     elif maze_height > 10 or maze_width > 10:
         epsilon_start = 0.2
-    elif maze_height > 4 or maze_width > 4:
-        epsilon_start = 0.1
     else:
         epsilon_start = 0.1
 
@@ -191,8 +190,12 @@ if __name__=="__main__":
     env = MazeEnv(grid, start, goal)
     agent = SarsaLambdaAgent(n_states, MazeEnv.N_ACTIONS, eps_start=epsilon_start, eps_decay=EPSILON_DECAY)
 
+    start_training = time.time()
     success_hist, returns_hist, agent = train(env, agent, max_episodes=MAX_EPISODES)
-    print("\nTraining finished.")
+    total_training_time = time.time() - start_training
+
+    print(f"\nTraining finished. Total training time: {total_training_time:.5f}s")
 
     reached, steps, path = greedy_rollout(env, agent.Q)
     print(f"Greedy reached goal: {reached} in {steps} steps.")
+    print("Learned path:", path)

@@ -1,0 +1,105 @@
+================================================================================
+DQN MAZE SOLVER - WITH VISUALIZATION
+================================================================================
+Maze shape: (15, 15)
+Start: (1, 1)
+Goal: (7, 11)
+
+⚠️  No GPU detected - using CPU
+Using device: cpu
+
+================================================================================
+STARTING DQN TRAINING
+================================================================================
+Target Episodes: 3000 (auto-stop on plateau)
+State size: 8
+Action size: 4
+Max steps per episode: 1800
+Visualization: ON
+================================================================================
+Ep 10 | Reward: -662.78 | Success:  50.0% | Steps: 1340.9 | Length:  30.3 | ε:  0.791 | Time/Ep:  3.45s | Duration:  34.45s
+Ep 20 | Reward: -787.02 | Success:  30.0% | Steps: 1606.6 | Length:  27.5 | ε:  0.771 | Time/Ep:  4.26s | Duration:  42.56s
+Ep 30 | Reward: -738.54 | Success:  30.0% | Steps: 1509.5 | Length:  28.5 | ε:  0.752 | Time/Ep:  4.27s | Duration:  42.70s
+Ep 40 | Reward: -323.79 | Success:  90.0% | Steps:  828.8 | Length:  31.6 | ε:  0.732 | Time/Ep:  2.21s | Duration:  22.05s
+Ep 50 | Reward:  -83.65 | Success: 100.0% | Steps:  383.0 | Length:  32.5 | ε:  0.712 | Time/Ep:  1.02s | Duration:  10.22s
+Ep 60 | Reward:    1.27 | Success: 100.0% | Steps:  215.4 | Length:  28.1 | ε:  0.692 | Time/Ep:  0.57s | Duration:   5.74s
+Ep 70 | Reward:   58.72 | Success: 100.0% | Steps:   99.6 | Length:  23.8 | ε:  0.673 | Time/Ep:  0.27s | Duration:   2.72s
+Ep 80 | Reward:   64.96 | Success: 100.0% | Steps:   88.7 | Length:  23.6 | ε:  0.653 | Time/Ep:  0.23s | Duration:   2.34s
+Ep 90 | Reward:   68.94 | Success: 100.0% | Steps:   79.8 | Length:  24.0 | ε:  0.633 | Time/Ep:  0.21s | Duration:   2.10s
+Ep 100 | Reward:   70.49 | Success: 100.0% | Steps:   70.5 | Length:  23.3 | ε:  0.613 | Time/Ep:  0.19s | Duration:   1.90s
+Ep 110 | Reward:   44.70 | Success: 100.0% | Steps:  136.3 | Length:  25.0 | ε:  0.594 | Time/Ep:  0.38s | Duration:   3.76s
+Ep 120 | Reward:  -67.66 | Success:  90.0% | Steps:  264.2 | Length:  23.7 | ε:  0.574 | Time/Ep:  0.71s | Duration:   7.13s
+Ep 130 | Reward:  -16.95 | Success:  90.0% | Steps:  245.2 | Length:  24.0 | ε:  0.554 | Time/Ep:  0.65s | Duration:   6.53s
+Ep 140 | Reward:   82.21 | Success: 100.0% | Steps:   55.4 | Length:  23.1 | ε:  0.534 | Time/Ep:  0.15s | Duration:   1.51s
+Ep 150 | Reward:   56.77 | Success: 100.0% | Steps:   95.1 | Length:  23.3 | ε:  0.515 | Time/Ep:  0.26s | Duration:   2.55s
+Ep 160 | Reward:   85.44 | Success: 100.0% | Steps:   44.8 | Length:  21.4 | ε:  0.495 | Time/Ep:  0.12s | Duration:   1.21s
+Ep 170 | Reward:   84.00 | Success: 100.0% | Steps:   46.6 | Length:  21.8 | ε:  0.475 | Time/Ep:  0.13s | Duration:   1.30s
+Ep 180 | Reward:   29.83 | Success: 100.0% | Steps:  118.6 | Length:  22.5 | ε:  0.455 | Time/Ep:  0.32s | Duration:   3.23s
+Ep 190 | Reward:   84.12 | Success: 100.0% | Steps:   46.5 | Length:  22.0 | ε:  0.436 | Time/Ep:  0.13s | Duration:   1.25s
+Ep 200 | Reward:    3.54 | Success:  90.0% | Steps:  218.3 | Length:  20.7 | ε:  0.416 | Time/Ep:  0.60s | Duration:   5.98s
+Ep 210 | Reward:   82.78 | Success: 100.0% | Steps:   53.9 | Length:  21.8 | ε:  0.396 | Time/Ep:  0.15s | Duration:   1.46s
+Ep 220 | Reward:   85.53 | Success: 100.0% | Steps:   54.0 | Length:  21.5 | ε:  0.376 | Time/Ep:  0.15s | Duration:   1.46s
+Ep 230 | Reward:   82.70 | Success: 100.0% | Steps:   53.3 | Length:  21.4 | ε:  0.357 | Time/Ep:  0.15s | Duration:   1.47s
+Ep 240 | Reward:   88.63 | Success: 100.0% | Steps:   41.6 | Length:  21.3 | ε:  0.337 | Time/Ep:  0.12s | Duration:   1.15s
+Ep 250 | Reward:   88.91 | Success: 100.0% | Steps:   42.2 | Length:  20.5 | ε:  0.317 | Time/Ep:  0.12s | Duration:   1.15s
+Ep 260 | Reward:   81.13 | Success: 100.0% | Steps:   73.8 | Length:  21.9 | ε:  0.297 | Time/Ep:  0.20s | Duration:   2.02s
+Ep 270 | Reward:   89.06 | Success: 100.0% | Steps:   47.1 | Length:  21.4 | ε:  0.278 | Time/Ep:  0.13s | Duration:   1.29s
+Ep 280 | Reward:   84.67 | Success: 100.0% | Steps:   60.4 | Length:  20.9 | ε:  0.258 | Time/Ep:  0.17s | Duration:   1.69s
+Ep 290 | Reward:   85.98 | Success: 100.0% | Steps:   52.8 | Length:  20.4 | ε:  0.238 | Time/Ep:  0.15s | Duration:   1.46s
+Ep 300 | Reward:   85.11 | Success: 100.0% | Steps:   60.1 | Length:  20.7 | ε:  0.218 | Time/Ep:  0.16s | Duration:   1.63s
+Ep 310 | Reward:   73.70 | Success: 100.0% | Steps:  107.1 | Length:  21.4 | ε:  0.199 | Time/Ep:  0.29s | Duration:   2.94s
+Ep 320 | Reward:   90.83 | Success: 100.0% | Steps:   43.1 | Length:  21.5 | ε:  0.179 | Time/Ep:  0.12s | Duration:   1.21s
+Ep 330 | Reward:   75.36 | Success: 100.0% | Steps:  110.7 | Length:  22.8 | ε:  0.159 | Time/Ep:  0.30s | Duration:   3.04s
+
+================================================================================
+EARLY STOPPING - Plateau detected: ΔSuccess 0.67% < 1.0% with recent success 99.3%
+================================================================================
+
+
+Close Pygame window to continue...
+
+================================================================================
+TRAINING COMPLETE
+================================================================================
+Total Episodes: 338
+Total Time: 291.10s (4.85 min)
+
+Final Success Rate (last 50 eps): 100.0%
+Best Path Length: 20
+================================================================================
+
+SUMMARY BY TRAINING PROGRESS (10% BUCKETS)
+[0-10%] Episodes 1-34 | Reward: -671.92 | Success:  44.1% | Steps: 1390.8 | Length:  28.9 | ε:  0.767 | Time/Ep:  3.73s | Duration: 126.91s
+[10-20%] Episodes 35-68 | Reward:  -77.05 | Success:  97.1% | Steps:  362.5 | Length:  29.2 | ε:  0.700 | Time/Ep:  0.97s | Duration:  32.93s
+[20-30%] Episodes 69-102 | Reward:   62.77 | Success: 100.0% | Steps:   91.9 | Length:  23.9 | ε:  0.633 | Time/Ep:  0.25s | Duration:   8.35s
+[30-40%] Episodes 103-136 | Reward:    2.83 | Success:  94.1% | Steps:  185.6 | Length:  24.0 | ε:  0.566 | Time/Ep:  0.50s | Duration:  17.01s
+[40-50%] Episodes 137-169 | Reward:   76.31 | Success: 100.0% | Steps:   61.2 | Length:  22.1 | ε:  0.500 | Time/Ep:  0.17s | Duration:   5.47s
+[50-60%] Episodes 170-203 | Reward:   43.85 | Success:  97.1% | Steps:  119.3 | Length:  21.9 | ε:  0.434 | Time/Ep:  0.33s | Duration:  11.07s
+[60-70%] Episodes 204-237 | Reward:   85.27 | Success: 100.0% | Steps:   50.4 | Length:  21.4 | ε:  0.366 | Time/Ep:  0.14s | Duration:   4.67s
+[70-80%] Episodes 238-271 | Reward:   86.82 | Success: 100.0% | Steps:   52.9 | Length:  21.3 | ε:  0.299 | Time/Ep:  0.15s | Duration:   4.93s
+[80-90%] Episodes 272-305 | Reward:   83.42 | Success: 100.0% | Steps:   64.8 | Length:  20.6 | ε:  0.232 | Time/Ep:  0.18s | Duration:   6.04s
+[90-100%] Episodes 306-338 | Reward:   80.48 | Success: 100.0% | Steps:   85.8 | Length:  21.8 | ε:  0.166 | Time/Ep:  0.24s | Duration:   7.83s
+================================================================================
+
+✓ Results saved to 'training_results.png'
+
+
+================================================================================
+EVALUATING TRAINED MODEL (ε=0 - Pure Exploitation)
+================================================================================
+Episode 10/100 - Success Rate: 100.0%
+Episode 20/100 - Success Rate: 100.0%
+Episode 30/100 - Success Rate: 100.0%
+Episode 40/100 - Success Rate: 100.0%
+Episode 50/100 - Success Rate: 100.0%
+Episode 60/100 - Success Rate: 100.0%
+Episode 70/100 - Success Rate: 100.0%
+Episode 80/100 - Success Rate: 100.0%
+Episode 90/100 - Success Rate: 100.0%
+Episode 100/100 - Success Rate: 100.0%
+================================================================================
+EVALUATION RESULTS:
+Success Rate: 100.0% (100/100)
+Average Path Length: 20.0
+Best Path Length: 20
+================================================================================
