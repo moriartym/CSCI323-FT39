@@ -199,3 +199,4 @@ if __name__=="__main__":
     reached, steps, path = greedy_rollout(env, agent.Q)
     print(f"Greedy reached goal: {reached} in {steps} steps.")
     print("Learned path:", path)
+

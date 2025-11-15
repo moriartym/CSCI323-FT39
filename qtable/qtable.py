@@ -189,3 +189,4 @@ if __name__ == "__main__":
     print(f"Path length: {num_steps} steps")
     print("Maze solution:")
     print(maze_solution)
+
