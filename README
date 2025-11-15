@@ -62,3 +62,4 @@ python3 sarsa/sarsa.py maze_map/perfect_small_maze.txt
 
 - To save the output:
 python3 sarsa/sarsa.py <maze_path> >> <save_file_name>.txt
+
